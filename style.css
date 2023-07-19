@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header,main,footer{
+    max-width: 1100px;
+    margin: auto;
+}
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 10px 0;
+}
+.nav-tittle{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-icon-content{
+    display: flex;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon span{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    list-style: none;
+    margin-right: 5px;
+    font-size: 15px;
+
+}
+.nav-menu li a{
+    font-size: 25px;
+    color: #111111;
+
+}
+.nav-menu li a{
+   text-decoration: none;
+   margin-right: 1rem;
+    
+}
+.nav-menu span{
+    margin-right: .80rem;
+}
+.nav-icon-content span{
+    color: #FF42A5;
+}
+.nav-icon-content img{
+    margin-right: .80rem;
+}
+.nav-icon{
+    background-color: #dddd;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.navmenu{
+    color: red;
+}
+.nav-icon-content h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+.banner-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-container{
+    width: 50%;
+    background-image: url("img/Group\ 14.png");
+    padding: 15px;
+    
+}
+.banner-imag{
+    width: 50%;
+    text-align: right;
+}
+.banner-imag img{
+    width: 80%;
+}
+.banner-container h1{
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.banner-container li{
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #534C64;
+    margin-bottom: 10px;
+
+}
+.primary-button{
+    border-radius: 48px;
+   background: #FF42A5;
+   padding: 8px 20px; 
+   border: none;
+   color: white;
+   margin-right: 18px;
+}
+.second-button{
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 8px 20px; 
+    border: none;
+    color: white;
+    margin-right: 18px;
+
+}
+
+.we-are-gamer{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 26px .50rem;
+}
+
+.gamer-img{
+    width: 50%;
+}
+.gamer-img img{
+    width: 100%;
+}
+.game-text{
+    width: 50%;
+    text-align: right;
+}
+.game-text h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 15px;
+}
+.game-text p{
+    color: #534C64;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 15px;
+
+}
+.b{
+    margin-bottom: 15px;
+}
+
+.primary-boder{
+    margin-bottom: 15px;
+}
+.game-text strong{
+    font-size: 20px;
+    color: #534C64;
+}
+.funny-vedio{
+    padding: 25px .50rem;
+}
+.funny-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.funny-text h2{
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+.funny-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.funny-img{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.funny-contens{
+    width: 25%;
+}
+.funny-contens img{
+    width: 100%;
+}
+
+.funny-img{
+    display: flex;
+}
+
+.online-anywhere{
+    display: flex;
+    gap: 40px;
+    /* align-items: center; */
+    padding: 30px 10px;
+}
+.online-image{
+    width: 50%;
+}
+.online-text{
+    width: 50%;
+    text-align: left;
+    margin-top: 40px;
+}
+.online-text h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.online-text p{
+    color: #534C64;
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.online-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+}
+.online-image img{
+    width: 100%;
+}
+.choto-pic{
+
+}
+.choto-pic img{
+    width: 40%;
+    position: relative;
+    margin-left: 300px;
+    top: -95px;
+}
+/* HHHH */
+.feature-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 25px 5px;
+    justify-content: space-evenly;
+}
+.items{
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.items img{
+    margin-right: 5px;
+    width: 25%;
+}
